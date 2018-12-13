@@ -1,0 +1,76 @@
+*{margin:0;padding:0;}
+.clearfix:after{display:block; height:0; clear:both; content:'.'; visibility:hidden;}
+ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,label,form,p,ol,head,footer,nav,section,aside,dialog,figure,figcaption,
+hgroup,article{display: block;}
+a {text-decoration:none;}
+ul,ol{list-style:none;}
+.team{
+	max-width: 1020px;
+    min-width: 300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 10px;
+}
+.team h2{
+	font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+    text-align: center;
+    color: #888888;
+}
+.team a{
+	display:block;
+	font-size: 24px;
+    margin-top: 19px;
+    color: #888888;
+    text-align: center;
+}
+.team ul{
+	padding-top:40px;
+}
+.team ul li{
+	width:25%;
+	float:left;
+	-webkit-box-sizing: border-box;
+    padding: 0 15px;
+    height: 801px !important;
+}
+.team ul li img{
+	width:100%;
+	border-radius: 10px;
+}
+.team ul li div p{
+	color: #888;
+    line-height: 24px;
+    padding-top: 16px;
+    text-indent: 28px;
+    font-size: 14px;
+}
+.team ul li div h3{
+	text-indent: 0;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #888;
+    margin: 0;
+    margin-top: 5px;
+}
+.team ul li div span{
+	color: #888;
+    line-height: 24px;
+    padding-top: 16px;
+    text-indent: 28px;
+    font-size: 14px;
+}
+
+@media screen and (max-width:760px) {
+	.team ul li div{display:none;}
+	.team ul li{height: auto !important;width:33%;padding: 0 5px;}
+}
+@media screen and (max-width:480px) {
+	.team ul li div{display:none;}
+	.team ul li{height: auto !important;width:50%;padding: 0 5px;}
+	.team a{font-size:21px;}
+}

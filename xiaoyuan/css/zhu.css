@@ -1,0 +1,249 @@
+*{margin:0;padding:0;}
+.clearfix:after{display:block; height:0; clear:both; content:'.'; visibility:hidden;}
+ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,label,form,p,ol,head,footer,nav,section,aside,dialog,figure,figcaption,
+hgroup,article{display: block;}
+a {text-decoration:none;}
+ul,ol{list-style:none;}
+.m{ width: 100%; height:auto;margin-left: auto; margin-right: auto; }
+	.m img{ width:100%;}
+.huan{
+	max-width:1030px;
+	min-width:270px;
+	margin:0 auto;
+	box-sizing:border-box;
+}
+.ctive{
+	background:#2196f3
+	!important;
+	color:white
+	!important;
+}
+.news ul li{
+	width:28%; 
+	font-weitht:bold;
+	cursor:pointer;
+}
+.news ul li a{
+	display:block;
+	height:81px;
+	line-height:81px;
+	text-align:center;
+}
+.news .content{
+	float:left;
+	overflow:hidden;
+}
+.news .content p{
+	height:361px;
+	color:#64707b;
+	font-size:13px;
+	margin-top:10px;
+}
+
+.container {
+    max-width: 1030px;
+    min-width: 270px;
+    padding: 0 15px;
+    margin: 40px auto 0 auto;
+    box-sizing: border-box;
+}
+.subMenu {
+    width: 26.6%;
+}
+.fl {
+    float: left;
+    display: inline;
+}
+.subMenu ul {
+    padding-right: 17px;
+    border-right: 1px solid #bababa;
+}
+.subMenu ul li:nth-of-type(1).hover {
+    background-image: url(../imged/xsjx_1.gif);
+}
+.subMenu ul li:nth-of-type(1){
+    background-image:url(../imged/xsjx.gif);
+}
+.subMenu ul li:nth-of-type(1):hover{
+	background-image: url(../imged/xsjx.gif);
+}
+.subMenu ul li:nth-of-type(1) a:hover{
+	border-bottom-color: #fa9634;
+}
+.subMenu ul li:nth-of-type(2).hover{
+	background-image:url(../imged/hy.gif);
+}
+.subMenu ul li:nth-of-type(2){
+	background:url(../imged/hy_1.gif) no-repeat 20px center;
+}
+.subMenu ul li:nth-of-type(2):hover{
+	background:url(../imged/hy.gif) no-repeat 20px center;
+}
+.subMenu ul li:nth-of-type(2) a:hover{
+	border-bottom-color: #fa9634;
+}
+.subMenu ul li:nth-of-type(3).hover{
+	background-image:url(../imged/ydh.gif);
+}
+.subMenu ul li:nth-of-type(3){
+	background:url(../imged/ydh_1.gif) no-repeat 20px center;
+}
+.subMenu ul li:nth-of-type(3):hover{
+	background:url(../imged/ydh.gif) no-repeat 20px center;
+}
+.subMenu ul li:nth-of-type(3) a:hover{
+	border-bottom-color: #fa9634;
+}
+.subMenu ul li:nth-of-type(4).hover{
+	background-image:url(../imged/dxs.gif);
+}
+.subMenu ul li:nth-of-type(4){
+	background:url(../imged/dxs_.gif) no-repeat 20px center;
+}
+.subMenu ul li:nth-of-type(4):hover{
+	background:url(../imged/dxs.gif) no-repeat 20px center;
+}
+.subMenu ul li:nth-of-type(4) a:hover{
+	border-bottom-color: #fa9634;
+}
+.subMenu ul li:nth-of-type(5).hover{
+	background-image:url(../imged/hj.gif);
+}
+.subMenu ul li:nth-of-type(5){
+	background:url(../imged/hj_1.gif) no-repeat 20px center;
+}
+.subMenu ul li:nth-of-type(5):hover{
+	background:url(../imged/hj.gif) no-repeat 20px center;
+}
+.subMenu ul li:nth-of-type(5) a:hover{
+	border-bottom-color: #fa9634;
+}
+.subMenu ul li:nth-of-type(6).hover{
+	background-image:url(../imged/sdwh.gif);
+}
+.subMenu ul li:nth-of-type(6){
+	background:url(../imged/sdwh_1.gif) no-repeat 20px center;
+}
+.subMenu ul li:nth-of-type(6):hover{
+	background:url(../imged/sdwh.gif) no-repeat 20px center;
+}
+.subMenu ul li:nth-of-type(6) a:hover{
+	border-bottom-color: #fa9634;
+}
+
+.subMenu ul li {
+    background-position: 20px center;
+    background-repeat: no-repeat;
+}
+.pr {
+    position: relative;
+}
+
+.subMenu ul li a {
+    display: block;
+    padding-left: 70px;
+    font-size: 21px;
+    line-height: 77px;
+    color: #222;
+    border-bottom: 4px solid #fff;
+    border-bottom-color: rgb(255, 255, 255);
+}
+.subMenu ul li.hover a{
+	border-bottom-color:#fa9634;
+}
+.subMenu ul li:hover a{
+    border-bottom-color:#fa9634;
+}
+.main {
+    padding-bottom: 40px;
+}
+.main {
+    width: 73.4%;
+    padding-top: 5px;
+}
+.fl {
+    float: left;
+    display: inline;
+}
+.main > div {
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+.main > div p {
+    text-indent: 32px;
+}
+.main > div {
+	padding-left:15px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+.main > div > img {
+    padding-top: 17px;
+    padding-bottom: 32px;
+    width:100%;
+}
+.main>div h4 {
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #fa9634;
+}
+.subMenu img {
+    display: block;
+    max-width: 100%;
+}
+
+@media screen and (max-width:760px) {
+	.subMenu{float:none;}
+	.subMenu ul{border-right:0px;}
+	.subMenu li{margin-left:34px;float: left;width:27%;}
+	.subMenu ul li a{font-size:20px;line-height:50px;padding-left:0px;padding-top:55px;text-align:center;}
+	.main > div p {width:100%;}
+	.main > div{width:130%;}
+}
+@media screen and (max-width:760px) {
+	.subMenu ul li:nth-of-type(2){
+	background:url(../imged/hy_1.gif) no-repeat center 10px;
+}
+.subMenu ul li:nth-of-type(2):hover{
+	background:url(../imged/hy.gif) no-repeat center 10px;
+}
+.subMenu ul li:nth-of-type(3){
+	background:url(../imged/ydh_1.gif) no-repeat center 10px;
+}
+.subMenu ul li:nth-of-type(3):hover{
+	background:url(../imged/ydh.gif) no-repeat center 10px;
+}
+.subMenu ul li:nth-of-type(4){
+	background:url(../imged/dxs_.gif) no-repeat center 10px;
+}
+.subMenu ul li:nth-of-type(4):hover{
+	background:url(../imged/dxs.gif) no-repeat center 10px;
+}
+.subMenu ul li:nth-of-type(5){
+	background:url(../imged/hj_1.gif) no-repeat center 10px;
+}
+.subMenu ul li:nth-of-type(5):hover{
+	background:url(../imged/hj.gif) no-repeat center 10px;
+}
+.subMenu ul li:nth-of-type(6){
+	background:url(../imged/sdwh_1.gif) no-repeat center 10px;
+}
+.subMenu ul li:nth-of-type(6):hover{
+	background:url(../imged/sdwh.gif) no-repeat center 10px;
+}
+.subMenu ul li:nth-of-type(1){
+    background:url(../imged/xsjx_1.gif)no-repeat center 10px;
+}
+.subMenu ul li:nth-of-type(1):hover{
+	background-image: url(../imged/xsjx.gif) no-repeat center 10px;
+}
+}
+@media screen and (max-width:480px) {
+	.subMenu li{margin-left:34px;float: left;width:24%;}
+	.subMenu ul li a{font-size:14px;line-height:50px;padding-left:0px;padding-top:55px;text-align:center;}
+	.subMenu ul li a span{display:none;}
+	.main > div p {width:100%;}
+}
